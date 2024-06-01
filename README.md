@@ -33,14 +33,16 @@ Blind single-image-based thin cloud removal using a cloud perception integrated 
 **** 
 ## Pretrained :film_projector:
 For models trained with the [RICE dataset](https://paperswithcode.com/dataset/rice) and [STGAN dataset](https://openaccess.thecvf.com/content_WACV_2020/papers/Sarukkai_Cloud_Removal_from_Satellite_Images_using_Spatiotemporal_Generator_Networks_WACV_2020_paper.pdf), please find them [here](https://drive.google.com/file/d/12IXY2asM2aREp9BMJNzHR-qnpdR5Nkbz/view?usp=drive_link).  
-The models have been tesified on the tasks of simulated cloud removal and real-world thin cloud removal, as well as small-scale thick cloud removal.
+The models have been tesified on the tasks of simulated cloud removal, real-world thin cloud removal, and small-scale thick cloud removal.  
+More specific scenarios for model testing please find in the [paper](https://doi.org/10.1016/j.isprsjprs.2023.10.014).
 **** 
 ## Representation :film_strip:
-#### :cloud: Natural Thin cloud removal:  
+#### :cloud: Natural Thin Cloud Removal:  
 ![image](https://github.com/Merryguoguo/CP-FFCN/assets/54757576/a9d4b57b-c02c-4fab-a720-97cc669a8b70)  
 
-#### :cloud: Natural small-scale Thick cloud removal:  
+#### :cloud: Natural Small-scale Thick Cloud Removal:  
 ![image](https://github.com/Merryguoguo/CP-FFCN/assets/54757576/6b57f15f-1520-4f5e-898e-e28c6f5b978f)  
+  
 ![image](https://github.com/Merryguoguo/CP-FFCN/assets/54757576/cc24cc7c-8579-431d-8b5e-75aa49148067)
 
 ## Citing CP-FFCN

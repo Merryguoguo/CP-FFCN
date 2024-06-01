@@ -31,7 +31,9 @@ Blind single-image-based thin cloud removal using a cloud perception integrated 
      - Adoption of the training strategy proposed in the paper  
   3. Commands for Training and Testing are included in ./CP-FFCN.txt :spiral_notepad: 
 **** 
-
+## Pretrained
+For models trained with the [RICE dataset](https://paperswithcode.com/dataset/rice) and [STGAN dataset](https://openaccess.thecvf.com/content_WACV_2020/papers/Sarukkai_Cloud_Removal_from_Satellite_Images_using_Spatiotemporal_Generator_Networks_WACV_2020_paper.pdf), please find them in [:film_projector:](https://drive.google.com/file/d/12IXY2asM2aREp9BMJNzHR-qnpdR5Nkbz/view?usp=drive_link)
+**** 
 ## Representation
 #### :cloud: Natural Thin cloud removal:  
 ![image](https://github.com/Merryguoguo/CP-FFCN/assets/54757576/a9d4b57b-c02c-4fab-a720-97cc669a8b70)  

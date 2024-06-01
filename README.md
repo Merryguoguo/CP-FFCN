@@ -6,7 +6,7 @@ Blind single-image-based thin cloud removal using a cloud perception integrated 
 
 ## Introduction :bulb:
 
-:sunny: This model does two things:  
+:sunny: The model does two things:  
   1. Cloud percation  
   2. Cloud removal
 

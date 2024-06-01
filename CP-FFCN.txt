@@ -1,0 +1,53 @@
+Github: 
+	https://github.com/Merryguoguo/CP-FFCN
+
+数据：
+	1. RICE2
+		https://paperswithcode.com/dataset/rice
+		Simulated dataset:
+			cloud-free: 
+			simulated cloudy: 
+		Natural dataset:
+			label: 
+			cloud: 
+		
+	2. STGAN
+		https://openaccess.thecvf.com/content_WACV_2020/papers/Sarukkai_Cloud_Removal_from_Satellite_Images_using_Spatiotemporal_Generator_Networks_WACV_2020_paper.pdf
+		Simulated dataset:
+			cloud-free: 
+			simulated cloudy: 
+		Natural dataset:
+			label: 
+			cloud: 
+
+训练：
+	conda activate stgan
+	1. RICE
+		CUDA_VISIBLE_DEVICES=5 python train_FFC_SARB_ffc_real_RICE1.py
+		CUDA_VISIBLE_DEVICES=5 python train_FFC_SARB_ffc_real.py
+		Loss Ablation：
+		1. Valid loss
+			CUDA_VISIBLE_DEVICES=0 python train_FFC_SARB_ffc_real_LA.py
+		2. Valid Hole TVP loss, GEEdata, Finetune:
+			CUDA_VISIBLE_DEVICES=0 python train_FFC_SARB_ffc_real_LA_F.py --finetune --resume /path/to/model
+	2. STGAN
+		CUDA_VISIBLE_DEVICES=1 python train_FFC_SARB_ffc_real_STGAN.py
+		Resume：CUDA_VISIBLE_DEVICES=1 python train_FFC_SARB_ffc_real_STGAN.py --finetune --resume /path/to/model
+
+Testing：
+	1. RICE
+			CUDA_VISIBLE_DEVICES=1 python test_real_SAM.py --snapshot /path/to/model
+			CUDA_VISIBLE_DEVICES=1 python test_real_SAM.py --snapshot /path/to/model
+
+			
+	RICE22. , CP(RC)-U-Net: 
+			训练：CUDA_VISIBLE_DEVICES=1 python train_CARB_UNet_RICE2_real.py
+			CUDA_VISIBLE_DEVICES=0 python test_real_SAM.py --snapshot /path/to/model
+	
+		
+	2. STGAN
+		CUDA_VISIBLE_DEVICES=0 python test_real_SAM_STGAN.py --snapshot /path/to/model
+
+
+
+		

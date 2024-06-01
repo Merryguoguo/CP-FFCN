@@ -28,7 +28,7 @@ Blind single-image-based thin cloud removal using a cloud perception integrated 
   2. Training data preparation :pushpin:  
      Take two points under consideration:  
      - Training with simulated data created by the [algorithm](https://github.com/Merryguoguo/Simu-clouds.git) introduced in the paper
-     - Adoption of the training strategy proposed in the paper  
+     - Adoption of the training strategy proposed in the [paper](https://doi.org/10.1016/j.isprsjprs.2023.10.014).  
   3. Commands for Training and Testing are included in ./CP-FFCN.txt :spiral_notepad: 
 **** 
 ## Pretrained :film_projector:

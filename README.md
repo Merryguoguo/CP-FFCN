@@ -29,7 +29,7 @@ Blind single-image-based thin cloud removal using a cloud perception integrated 
      Take two points under consideration:  
      - Training with simulated data created by the [algorithm](https://github.com/Merryguoguo/Simu-clouds.git) introduced in the paper.
      - Adoption of the training strategy proposed in the [paper](https://doi.org/10.1016/j.isprsjprs.2023.10.014).  
-  3. Commands for Training and Testing are included in ./CP-FFCN.txt :spiral_notepad: 
+  3. Commands for Training and Testing are included in [CP-FFCN.txt](https://github.com/Merryguoguo/CP-FFCN/blob/main/CP-FFCN.txt) :spiral_notepad: 
 **** 
 ## Pretrained :film_projector:
 For models trained with the [RICE dataset](https://paperswithcode.com/dataset/rice) and [STGAN dataset](https://openaccess.thecvf.com/content_WACV_2020/papers/Sarukkai_Cloud_Removal_from_Satellite_Images_using_Spatiotemporal_Generator_Networks_WACV_2020_paper.pdf), please find them [here](https://drive.google.com/file/d/12IXY2asM2aREp9BMJNzHR-qnpdR5Nkbz/view?usp=drive_link).  

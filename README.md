@@ -24,7 +24,7 @@ Blind single-image-based thin cloud removal using a cloud perception integrated 
 ## Preliminary :anchor:
 
   1. Environment :earth_africa:  
-     Find it in env.txt  
+     Find it in [env.txt](https://github.com/Merryguoguo/CP-FFCN/blob/main/env.txt)  
   2. Training data preparation :pushpin:  
      Take two points under consideration:  
      - Training with simulated data created by the algorithm introduced in the paper

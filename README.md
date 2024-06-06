@@ -45,7 +45,7 @@ More specific illustrations of different cloudy scenarios for model testing plea
   
 ![image](https://github.com/Merryguoguo/CP-FFCN/assets/54757576/cc24cc7c-8579-431d-8b5e-75aa49148067)
 
-## Citing CP-FFCN
+## Citing CP-FFCN :)
 If you find this code/data useful in your research then please cite our [paper](https://doi.org/10.1016/j.isprsjprs.2023.10.014):
 ```
 Guo, Y., He, W., Xia, Y., & Zhang, H. (2023). Blind single-image-based thin cloud removal using a cloud perception integrated fast Fourier convolutional network. ISPRS Journal of Photogrammetry and Remote Sensing, 206, 63–86. https://doi.org/10.1016/j.isprsjprs.2023.10.014
